@@ -22,7 +22,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "yarn --cwd webapp/ install"
+	"postCreateCommand": "yarn --cwd webapp/ --modules-folder ../node_modules install"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
